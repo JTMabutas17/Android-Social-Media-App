@@ -16,6 +16,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.hunnydates.BuildConfig;
 import com.example.hunnydates.R;
 import com.example.hunnydates.utils.CurrentUser;
 import com.google.android.gms.common.api.Status;
@@ -42,7 +43,7 @@ import static android.app.Activity.RESULT_CANCELED;
 
 public class CreateDateFragment extends Fragment {
 
-    private static final String API_KEY = "INSERT API KEY HERE";
+    private static final String API_KEY = BuildConfig.apiKey;
 
     private static final String TAG = "placesAPI";
     private static final String TAG1 = "bitmap";
