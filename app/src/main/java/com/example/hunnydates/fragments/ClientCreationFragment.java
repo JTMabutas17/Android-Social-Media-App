@@ -75,7 +75,7 @@ public class ClientCreationFragment extends Fragment {
         displayNameEditText = view.findViewById(R.id.cc_display_name_edit_text);
         ageEditText = view.findViewById(R.id.cc_age_edit_text);
         descriptionEditText = view.findViewById(R.id.cc_description_edit_text);
-        referralCodeEditText = view.findViewById(R.id.cc_referral_code_edit_text);
+//        referralCodeEditText = view.findViewById(R.id.cc_referral_code_edit_text);
         createAccountButton = view.findViewById(R.id.cc_create_account_button);
 
         String profilePicURL = profileURL.replace("s96", "s384");
